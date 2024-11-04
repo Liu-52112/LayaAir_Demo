@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "dev": "leb -c leb.config.js",
+    "build": "node esbuild.bundle.js",
+    "build-min": "node esbuild.bundle.js --min",
+    "gen-configs": "node tools/ConfigsTypeGen.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.20.2",
+    "@babel/preset-env": "^7.20.2",
+    "esbuild": "^0.15.1",
+    "tslib": "^2.4.0"
+  }
+}
